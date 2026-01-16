@@ -10,7 +10,7 @@ loginButton.addEventListener('click', function() {
         alert('Username and password must be at least 3 characters long.');
         return;
     }
-    window.location.href = 'dashboard.html';
+    window.location.href = '/html/dashboard.html';
    }
    else {
     alert('Please enter both username and password.');

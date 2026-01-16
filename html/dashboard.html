@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dashboard</title>
+    <link rel="stylesheet" href="/styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+
+<body>
+    <div class="dashboard-page">
+        <div class="sidebar-parent">
+            <div class="sidebar">
+                <div class="logo-container">
+                    <img class="logo" src="/images/logo.png" alt="BMS Logo" width="110" height="40">
+                </div>
+                <div class="menu-items-parent">
+                    <div class="menu-heading">
+                        <p style="color: white; font-size: 12px;">MAIN MENU</p>
+                    </div>
+                    <div class="menu-items">
+                        <div class="menu-item-1"> <i class="fa-solid fa-house"></i> Add Book </div>
+                        <div class="menu-item-2"> <i class="fa-solid fa-book"></i>Book Details </div>
+                    </div>
+
+
+                </div>
+
+            </div>
+        </div>
+
+
+        <div class="main-container">
+
+
+            <div class="navbar-parent">
+                <div class="navbar">
+                    <div class="navbar-left">
+                        <h2 style="font-weight: 500; color: #374151; font-weight: 500;">Welcome!</h2>
+                        <p style="font-weight:400; color: #374151; font-size: 10px;">Lorem ipsum dolor sit amet
+                            consectetur nec faucibus.</p>
+                    </div>
+                    <div class="navbar-right">
+                        <i class="fa-solid fa-angle-up"></i>
+
+                    </div>
+                </div>
+            </div>
+
+
+
+
+
+
+
+            <div class="add-book-parent">
+                <div style="margin-left: 15px;">
+                    <h2 style="font-weight: 400; color: #374151; font-size: 32px; margin-bottom: 10px;">Add Book</h2>
+                    <hr />
+
+                </div>
+
+
+                <div class="add-book-form">
+
+
+                    <div class="add-book-row">
+
+
+                        <div class="add-book-column">
+                            <label for="book-name">Book Name</label>
+                            <input type="text" id="book-name" name="book-name" placeholder="Enter book name">
+                        </div>
+                        <div class="add-book-column">
+                            <label for="author-name">Author Name</label>
+                            <input type="text" id="author-name" name="author-name" placeholder="Enter author name">
+                        </div>
+
+
+
+                    </div>
+
+
+                    <div class="add-book-row">
+
+
+                        <div class="add-book-column">
+                            <label for="isbn">ISBN</label>
+                            <input type="text" id="isbn" name="isbn" placeholder="Enter ISBN no.">
+                        </div>
+                        <div class="add-book-column">
+                            <label for="price">Price</label>
+                            <input type="text" id="price" name="price" placeholder="Enter price">
+                        </div>
+                        <div class="add-book-column">
+                            <label for="price">Quantity</label>
+                            <input type="text" id="quantity" name="quantity" placeholder="Enter Quantity">
+                        </div>
+
+                    </div>
+
+                    <div class="add-book-row">
+                        <div class="add-book-column">
+                            <label for="description">About the book (short description)</label>
+                            <textarea style="width: 480px;" id="description" name="description"
+                                placeholder="Enter book description"></textarea>
+                        </div>
+
+
+                    </div>
+
+                    <div class="add-book-button">
+                        <button class="btn-add-book">
+                            Submit
+                        </button>
+
+                    </div>
+
+
+
+                </div>
+
+
+            </div>
+
+
+
+        </div>
+    </div>
+
+</body>
+
+</html>
